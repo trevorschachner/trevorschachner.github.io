@@ -16,8 +16,9 @@
 title_a: "Hi, I'm"
 title_color: "Trevor Schachner"
 title_b: "."
+title: "Trevor Schachner"
 email: 'firstname lastname AT gmail DOT com' # make AT and DOT the highlight color
-description: "I'm not a software developer and designer from Chicago creating useful things for the web."
+description: "Welcome to my personal website! Here I will be showcasing my prior work and experience as well as sharing a few different parts of my life."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://trevorschachner.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: ''
@@ -102,4 +103,5 @@ enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/about', text: 'About' }
-  - { url: '/foo', text: 'Foo' }
+  - { url: '/projects', text: 'Projects' }
+  - { url: '/resume', text: 'Resume' }
