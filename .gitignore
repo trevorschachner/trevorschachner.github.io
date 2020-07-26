@@ -1,6 +1,12 @@
-.DS_Store
-*.gem
+# Jekyll
+_site
 .bundle
 .sass-cache
-_site
+
+# Ruby
+*.gem
 Gemfile.lock
+
+# Other
+.DS_Store
+*.swp

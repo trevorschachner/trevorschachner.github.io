@@ -103,5 +103,6 @@ enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/about', text: 'About' }
+  - { url: '/Music', text: 'Music' }
   - { url: '/projects', text: 'Projects' }
   - { url: '/resume', text: 'Resume' }
