@@ -1,13 +1,13 @@
 ---
 layout: inner
 position: left
-title: 'Phantom'
-date: 2016-02-20 21:15:00
-categories: development design
-tags: Jekyll Sass Bootstrap
-featured_image: '/img/posts/04_phantom-jekyll-1130x864-2x.png'
-project_link: 'https://github.com/jamigibbs'
-button_icon: 'flask'
+title: 'Design Thinking - Design Sprint'
+date: 2020-05-15 21:15:00
+categories: development product-design 
+tags: Product-Development Design-Thinking
+featured_image: '/images/posts/02_design.jpg'
+project_link: '/projects/#design-thinking-design-sprint'
+button_icon: ''
 button_text: 'Visit Project'
-lead_text: "A minimalist Jekyll theme that you're looking at it right now"
+lead_text: "Design sprint to re-design a product for a global packaging company. Click below to see more."
 ---

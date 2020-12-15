@@ -28,7 +28,7 @@ linkedin_username: 'trevor-schachner'
 
 # Build settings
 markdown: kramdown
-# theme: phantom # Uncomment once published to RubyGems
+theme: phantom # Uncomment once published to RubyGems
 plugins:
   - jekyll-paginate-v2
 
@@ -101,8 +101,9 @@ enable_contact: false
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
-  - { url: '/', text: 'Home' }
+  - { url: '/home', text: 'Home' }
   - { url: '/about', text: 'About' }
-  - { url: '/Music', text: 'Music' }
+  - { url: '/music', text: 'Music' }
   - { url: '/projects', text: 'Projects' }
   - { url: '/resume', text: 'Resume' }
+  - { url: '/blog', text: 'Blog' }

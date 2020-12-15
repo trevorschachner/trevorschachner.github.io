@@ -7,6 +7,9 @@ _site
 *.gem
 Gemfile.lock
 
+# VSCode
+.vscode/
+
 # Other
 .DS_Store
 *.swp
