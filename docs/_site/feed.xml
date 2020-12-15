@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trevor Schachner</title>
+    <description>Welcome to my personal website! Here I will be showcasing my prior work and experience as well as sharing a few different parts of my life.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 14 Dec 2020 20:18:55 -0500</pubDate>
+    <lastBuildDate>Mon, 14 Dec 2020 20:18:55 -0500</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Design Thinking - Design Sprint</title>
+        <description>
+</description>
+        <pubDate>Fri, 15 May 2020 17:15:00 -0400</pubDate>
+        <link>http://localhost:4000/development/product-design/2020/05/15/design-thinking.html</link>
+        <guid isPermaLink="true">http://localhost:4000/development/product-design/2020/05/15/design-thinking.html</guid>
+        
+        <category>Product-Development</category>
+        
+        <category>Design-Thinking</category>
+        
+        
+        <category>development</category>
+        
+        <category>product-design</category>
+        
+      </item>
+    
+      <item>
+        <title>AFP Research and Prototyping</title>
+        <description>
+</description>
+        <pubDate>Thu, 26 Mar 2020 20:00:00 -0400</pubDate>
+        <link>http://localhost:4000/engineering/2020/03/26/afp.html</link>
+        <guid isPermaLink="true">http://localhost:4000/engineering/2020/03/26/afp.html</guid>
+        
+        <category>Engineering</category>
+        
+        <category>Prototyping</category>
+        
+        <category>Research</category>
+        
+        
+        <category>engineering</category>
+        
+      </item>
+    
+      <item>
+        <title>Bloc Jams Angular</title>
+        <description>&lt;!---
+layout: inner
+position: right
+title: 'Bloc Jams Angular'
+date: 2016-02-20 14:15:00
+categories: development
+tags: JavaScript AngularJS Sass Grunt
+featured_image: '/img/posts/01_bloc-jams-angular-1130x864-2x.png'
+project_link: 'https://github.com/jamigibbs/bloc-jams-angular'
+button_icon: 'github'
+button_text: 'Visit Project'
+lead_text: 'A digital music player built using AngularJS'
+---&gt;
+</description>
+        <pubDate>Sat, 20 Feb 2016 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2016/02/20/bloc-jams-angular.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/02/20/bloc-jams-angular.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Rescue Themes</title>
+        <description>&lt;!---
+layout: inner
+position: right
+title: 'Rescue Themes'
+date: 2016-02-20 15:56:00
+categories: development design
+tags: WordPress PHP Sass
+featured_image: '/img/posts/03_rescue-themes-1130x864-2x.png'
+project_link: 'https://rescuethemes.com'
+button_text: 'Visit Rescue Themes'
+button_icon: 'wordpress'
+lead_text: 'Designed and developed all WordPress themes'
+---&gt;
+</description>
+        <pubDate>Fri, 19 Feb 2016 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2016/02/19/rescue-themes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/02/19/rescue-themes.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Weathercast</title>
+        <description>&lt;!---
+layout: inner
+position: left
+title: 'Weathercast'
+date: 2016-02-20 15:56:00
+categories: development
+tags: JavaScript AngularJS API Sass
+featured_image: '/img/posts/02_weathercast-1130x864-2x.png'
+project_link: 'http://github.com/jamigibbs/weathercast'
+button_icon: 'github'
+button_text: 'Visit Project'
+lead_text: 'A simple weather forecast app for your favorite city.'
+---&gt;
+</description>
+        <pubDate>Wed, 17 Feb 2016 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2016/02/17/weathercast.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/02/17/weathercast.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
