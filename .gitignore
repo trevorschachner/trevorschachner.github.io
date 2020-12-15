@@ -1,5 +1,6 @@
 # Jekyll
-_site
+# GH Pages currently does not support `paginate` plugin
+# _site
 .bundle
 .sass-cache
 
