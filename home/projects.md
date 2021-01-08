@@ -137,7 +137,10 @@ Unfortunately, I can not disclose specifics regarding the project I  participate
 
 After an initial introduction to design thinking (using resources from the <a href="https://dschool.stanford.edu/" target="_blank">Stanford D-School</a>) the team was immediately thrown into the process ourselves. The team was on a strict 10-day timeline with the first 2 days occupied by the introduction and design brief. On Day 3 our customer research began.
 
-One of the foundational aspects of design thinking is understanding the problem that needs to be solved. This is referred to as the "empathy" stage of design thinking. Without understanding the underlying problems a user is encountering the solutions developed will not act as a true solution---a bandage rather than an antidote. This phase of design thinking is commonly the longest and most detailed part of the process.
+One of the foundational aspects of design thinking is understanding the problem that needs to be solved. This is referred to as the "empathy" stage of design thinking. Without understanding the underlying problems a user is encountering the solutions developed will not act as a true solution---a pain-killer rather than an antidote. This phase of design thinking is commonly the longest and most detailed part of the process.
+
+I will continue writing about my Design Thinking experience in the near future! 
+
 
 ---
 
@@ -193,13 +196,11 @@ Over the first few  months, we had to determine the problems we needed to solve 
 
 While this is the majority of the design considerations, there were many smaller considerations we had to juggle when coming up with a final design. One of the biggest considerations was the footprint of the station. Zapp had limited space on campus and we had to make sure these stations could fit within the boundaries given by the university. This became a challenge once it was determined that we needed 4 - 6 solar panels to make this charging process feasible. Once the design considerations were in place we made several sketches (close to 30 total) and finally settled on the simplistic design <a href="#zapp-solar-charging"> seen at the top of this project</a>.  
 
+I will continue to write about this project in greater detail in the near future!
+
 ---
 
 
 
 
 <br/>
-
-
-
-**bold before** **<span style="color:#00cccc">bold shit</span>** *italics after*
