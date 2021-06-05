@@ -12,16 +12,16 @@ I will be updating this page regularly to reflect my <span class="brandText">mus
 <br>
 <br>
 
-Website: <a href="https://trevorschachner.wixsite.com/mysite">Schachner Designs</a>
+Website: <a href="https://trevorschachner.wixsite.com/mysite" target="_blank">Schachner Designs</a>
 
-Soundcloud: <a href="https://soundcloud.com/trevor-schachner-56916757"> Trevor Schachner</a>  
+Soundcloud: <a href="https://soundcloud.com/trevor-schachner-56916757" target="_blank"> Trevor Schachner</a>  
 <br>
 <br>
 
 Table of  Contents:
 - [Teaching Experience](#teaching-experience)
 - [Design and Arranging](#design-and-arranging)
-- [Drum Corps](#design-and-arranging)
+- [Drum Corps](#drum-corps)
 
 
 <br>
@@ -63,4 +63,42 @@ Table of  Contents:
 
 ## Design and Arranging
 ___
-More Coming Soon!
+I have been designing and arranging for marching band shows since 2018! While I only started writing music in 2016 I have made huge strides in my ability along with developing many key relationships and partners along the way! 
+
+Here is a brief description of my current role with design and arranging: 
+
+- Lead a team of five, writing music and movement for ten high school performing ensembles in the United States
+- Work directly with clients to establish timelines, design requirements, and deliverables for each project
+- Manage client relationships, communications, contracts, and internal operations for the design team
+
+
+Previous Clients: 
+- Clinton HS (Clinton, SC): 2018 - 2021
+- Dreher HS (Columbia, SC): 2019 - 2021
+- Dorman HS (Roebuck, SC): 2019
+- Gilbert HS (Gilbert, SC): 2020
+- Lugoff-Elgin HS (Lugoff-Elgin, SC): 2021
+- Ola HS (McDonough, GA): 2021
+- Pelham HS (Pelham, AL): 2020 - 2021
+- Swansea HS (Swansea, SC): 2021
+- Trinity HS (Euless, TX): 2019
+- White Oak HS (Jacksonville, NC): 2019-2021
+
+<br>
+<br>
+
+Thank you to Brighton Barrineau, Ryan Wilhite, Justin Bui, and Theo Richardson for being my close friends and business partners. 
+Also thank you to Evan VanDoren for his continued support and mentorship along the way! 
+
+
+## Drum Corps
+
+I still remember the first time I was introduced to Drum Corps. It was 2013 right at the end of May where I first saw Carolina Crown perform at their pre-season "Spring-Training". From the first note I heard them play I decided I would be a part of this group one day.
+
+Fast forward to 2015 and I became a member of Carolina Crown where I spent 4 years performing and traveling the country. Those 4 years were the most exciting and formative years of my life and I attribute much of who I am today to the experiences I had with Carolina Crown. 
+
+After ageing-out of DCI, I became a visual instructor at Legends Drum and Bugle Corps in Kalamazoo, MI where I still teach today! 
+
+I could write about my experience with DCI indefinitely so I will keep this short for now and add more in the future!
+
+Thanks for reading!

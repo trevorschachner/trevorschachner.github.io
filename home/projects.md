@@ -12,6 +12,7 @@ I will be updating this page regularly to reflect my <span class="brandText">pro
 <br/>
 
 Table of  Contents:
+- [Combining .csv files with Python](#combining-.csv-files-with-python)
 - [AFP Research and Educational Prototyping](#afp-research-and-educational-prototyping)
 - [Acoustic Haptic Touch](#acoustic-haptic-touch)
 - [Textbook Marketplace](#textbook-marketplace)
@@ -19,6 +20,37 @@ Table of  Contents:
 - [Design Thinking Design Sprint](#design-thinking-design-sprint)
 - [Naptime](#naptime)
 - [Zapp Solar Charging](#zapp-solar-charging)
+
+---
+
+### Combining .csv files with Python
+_December 2020 - February 2021_
+
+<a href="https://github.com/trevorschachner/consolidate-csv" target="_blank">Github Repo for this project!</a>
+
+Overview:
+* Automated data reporting for membership and donation data with Python, saving 10 hours of staff time per month
+* Used Python to combine .csv reports into one fully formatted and sorted file to share with internal team and board members.
+
+This project was an idea I first had just after starting my current job. Every time we report data to our board of directors or volunteers, it would take several hours to pull a report, combine it with reports from other systems, and then manipulate the data in excel. This was extremely inefficient and anytime someone asked for a current report it was another several hours of this easily repeatable process. 
+
+I focused on the reporting for our list of donors and the running total of how much each donor donated so far over the course of the year. Since we collect donations in multiple platforms it was time consuming to run multiple reports and combine in excel each time. 
+
+Another feature I wanted to include was tagging donors for email communications specific to the amount they previously donated or their running total for the year. Our database (which I would argue is not a real database since it is impossible to use standard SQL or other database commands to run queries) required an extremely time consuming process to tag members based on their donations so we needed a new way to keep track of it. 
+
+A high level overveiw of the program: 
+- Import all .csv files from the membership management system and various donation software (including a .csv file of all current members of the association)
+- Using the member's email as a primary key, create a dataframe combining the members with the first donation list. If duplicate names are found print name, email, state and prompt user to select y/n if duplicate. If yes sum total donation value with other individual record, if no append to end of dataframe.
+- Using the newly merged dataframe, combine again with the next dataframe. Sum values of donors who donated on multiple platforms. 
+- Create final dataframe with relevant tags based on donation amount in a new column.
+- Turn dataframe into .csv file and save
+
+
+There are more intricacies to this program including a function to determine if a donation is recurring (monthly, quarterly, yearly), if a donation is split between multiple donation funds (ex. scholarship fund and legislative fund are two different bank accounts and need to be tracked as such), and tagging individuals based on recurring amounts as well as total amount donated.
+
+Future improvements to this program will include a SQL equivalent for runtime improvements. Future versions will also include a file to read at startup which will store user input (y/n function) on duplicate names with different emails.
+
+As a result of this project a task that was taking anywhere between 1 - 3 hours per week now takes less than 10 minutes. Over the course of a year this will save upwards of a week of staff time.
 
 ---
 
@@ -127,15 +159,15 @@ _May 2019_
 ![Design Thinking "Office"](/images/projects/7.jpg "Design Thinking Office")
 
 Overview: 
-* Participated in a 10-day design sprint working with a global packaging company through the Darla Moore School of Business.
-* Determined best course of action for a new package design identified through the design thinking process.
-* Collaborated with 10 team members of varying engineering and business backgrounds to complete the project.
+* Identified a new packaging design through the human-centered design thinking process emphasizing user experience 
+* Analyzed stakeholder and customer requirements to define constraints and metrics of success for the design
+* Conducted testing of functional requirements and user acceptance to validate assumptions and metrics of success
 
-Before participating in this project, design thinking was not something I was familiar with, however, it was something I grew to love. Through this project I was able to work with a cross-disciplinary team and build many great relationships. After one of the most intense 10-day experiences I've had, I can say that design thinking is important, relevant, and essential to creating value for the users.
+Before participating in this project, I had no idea what "Design Thinking" was, however, it was something I quickly grew to love. Through this project I was able to work with a multi-disciplinary team to discover user problems, identify potential solutions, and validate our solution solutions through user testing.  After an intense 10-day design sprint, I can say that design thinking is important, relevant, and essential to creating value for a company and their customers.
 
 Unfortunately, I can not disclose specifics regarding the project I  participated in, but I can describe the process in detail. 
 
-After an initial introduction to design thinking (using resources from the <a href="https://dschool.stanford.edu/" target="_blank">Stanford D-School</a>) the team was immediately thrown into the process ourselves. The team was on a strict 10-day timeline with the first 2 days occupied by the introduction and design brief. On Day 3 our customer research began.
+After an initial introduction to design thinking (using resources from the <a href="https://dschool.stanford.edu/" target="_blank">Stanford D-School</a>) the team was immediately thrown into the process ourselves. The team was on a strict 10-day timeline with the first 2 days occupied by the introduction and design brief. On Day 3 our customer discovery and research began.
 
 One of the foundational aspects of design thinking is understanding the problem that needs to be solved. This is referred to as the "empathy" stage of design thinking. Without understanding the underlying problems a user is encountering the solutions developed will not act as a true solution---a pain-killer rather than an antidote. This phase of design thinking is commonly the longest and most detailed part of the process.
 
@@ -149,9 +181,9 @@ _January 2019 - May 2019_
 
 
 Overview: 
-* Created a lean-startup business plan for new on-campus coffee shop with "napping" areas for students.
-* Developed differentiation strategy and profit-loss estimates for business.
-* Created and pitched presentation to angel investors for funding at UofSC.
+* Led three-person team and created a lean-startup business plan for an on-campus coffee and “napping” café for students
+* Created differentiation strategy, profit-loss estimates, 18-month budget, and risk-management plan for the business
+* Created and pitched presentation to angel investors for funding at UofSC
 
 Naptime is an idea that has gone through many iterations before landing in its current state.
 
@@ -177,24 +209,41 @@ _August 2018 - May 2019_
 ![Zapp-Bench-Design](/images/projects/10.jpg "Zapp Bench Design")
 
 Overview:
-* Designed and constructed a solar-powered charging station for e-scooters and other Zapp Vehicles.
-* Used CAD modeling to design structure and storage space, as well as perform simulation modeling.
-* Collaborated with an electrical engineering team and solar-tech company to construct the internal electrical components.
+* Project lead of mechanical engineering student team for a solar-powered e-scooter charging station on campus
+* Developed product requirements and success metrics by interfacing with client, end users, and other engineering teams 
+* Managed timelines and deliverables through project and facilitated partnership with external solar technology company
+
 
 The Zapp Solar-Charging project was my mechanical engineering capstone project at the University of South Carolina. This project was filled with many great experiences and challenges along the way. 
 
-The value of this station was to reduce the amount of hours Zapp technicians had to drive around the city to replace and re-stock batteries. By having one, or several, charging stations on campus Zapp would be able to save money on labor and fuel for replacing the batteries. Before this project, Zapp technicians would drive to campus and take all batteries below 20% full, remove them from vehicles, and drive them back to Zapp headquarters to charge overnight. The next morning these batteries would be taken from headquarters back to the city and placed into the scooters again. This process would take extensive amounts of time and is costly to the company. Our task was to create a station to hold these batteries securely, and provide a clean source of energy to charge them. 
+The value of this station was to reduce the amount of hours Zapp technicians had to drive around the city to replace and re-stock batteries. By having one, or several, charging stations on campus Zapp would be able to save money on labor and fuel for replacing the batteries. By comparing the cost of our solution to the potential savings using this station, we were able to define our metrics of success for the project. 
 
-What seemed like a simple task became a challenging design prompt for the team.
+ Originally, Zapp technicians drove to campus and took all batteries below 20% full, removed them from the vehicles, and drove them back to Zapp headquarters to charge overnight in their charging racks. The next morning these batteries were taken from headquarters back to the city and placed into the scooters. This process took extensive amounts of time and increased labor costs. Our task was to create a station to hold these batteries securely,  and provide a clean source of energy to charge them. 
 
-Over the first few  months, we had to determine the problems we needed to solve and the best way to solve them. We started by identifying the necessary design features in the station. These included:
-1. Battery storage space
-2. Space for solar panels
-3. Bench and outlet charging for students
+To begin we determined some of the key features that the station needed as outlined by the ZappRideshare stakeholders: 
+1. Battery storage space (at least 10 batteries)
+2. Support solar panels to charge batteries
+3. Bench seating
 4. Advertising space
-5. Clean and natural aesthetic.
+5. Clean and natural aesthetic
 
-While this is the majority of the design considerations, there were many smaller considerations we had to juggle when coming up with a final design. One of the biggest considerations was the footprint of the station. Zapp had limited space on campus and we had to make sure these stations could fit within the boundaries given by the university. This became a challenge once it was determined that we needed 4 - 6 solar panels to make this charging process feasible. Once the design considerations were in place we made several sketches (close to 30 total) and finally settled on the simplistic design <a href="#zapp-solar-charging"> seen at the top of this project</a>.  
+After gathering a first list of requirements we started our user research with a general survey of students at UofSC. 
+
+_As a note, Zapp was a well respected and established form of transportation around the hilly, urban campus of UofSC._
+
+We discovered that our university lacked outside space with charging options for mobile devices, and lacked of shaded space along the outskirts of campus (specifically near the engineering buildings). While our design prompt was not to determine where these stations were located, it was something we kept in mind. This added more requirements to our list: 
+
+6. Shaded Space
+7. Outlets for charging mobile devices
+
+I decided a good next step would be to talk to the technicians who worked for the company and were responsible for removing and replacing the batteries. After visiting Zapp's headquarters, we quickly realized that replacing the batteries each day took a toll on their employees. The batteries weighted approximately 15Kg and the technicians were replacing 50 - 80 of these each day. This insight led us to a few more design requirements: 
+
+8. Easy and secure technician access
+7. Ergonomics for accessing and plugging in batteries
+
+While this is the majority of the design considerations, there were many smaller considerations we had to juggle when coming up with a final design. One of the biggest considerations was the footprint of the station. 
+
+Zapp had limited space on campus for their scooters and we had to make sure these stations could fit within the space alloted. This became a challenge once it was determined that we needed 4 - 6 solar panels to make this charging process feasible. Once the design considerations were in place we made several sketches (close to 30 total) and finally settled on the simplistic design <a href="#zapp-solar-charging"> seen at the top of this project</a>.  
 
 I will continue to write about this project in greater detail in the near future!
 
